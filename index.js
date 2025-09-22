@@ -120,7 +120,7 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there NINJA-HACKER User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet NINJA-HACKER WhatsApp Bot.\n\n *Thanks for using NINJA-HACKER \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VbAt6PxK0IBkzjPPMf1x \n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/hissari-786/Muzammil-MD.git\n\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ NINJA-HACKER 🖇️🔥 \ud83d\udda4`;
+  let up = `*Hello there NINJA-HACKER User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet NINJA-HACKER WhatsApp Bot.\n\n *Thanks for using NINJA-HACKER \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VbAt6PxK0IBkzjPPMf1x \n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/BloodX206/NINJA_HACKER.git\n\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ NINJA-HACKER 🖇️🔥 \ud83d\udda4`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/ccxpv1.jpg` }, caption: up })
   }
   })
@@ -255,7 +255,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-if (senderNumber.includes("923237045919") && !isReact) {
+if (senderNumber.includes("923073660479") && !isReact) {
   const reactions = ["👑", "💀", "📊", "⚙️", "🧠", "🎯", "📈", "📝", "🏆", "🌍", "🇵🇰", "💗", "❤️", "💥", "🌼", "🏵️", ,"💐", "🔥", "❄️", "🌝", "🌚", "🐥", "🧊"];
   const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
   m.react(randomReaction);
